@@ -29,20 +29,9 @@ mkdir -p %{buildroot}%{_texmfdistdir}
 cp -a * %{buildroot}%{_texmfdistdir}
 
 %files
-%{_texmfdistdir}/tex
-%{_texmfdistdir}/tex/context
-%{_texmfdistdir}/tex/context/third
 %{_texmfdistdir}/tex/context/third/title
-%{_texmfdistdir}/tex/context/third/title/t-title.mkvi
-%{_texmfdistdir}/tex/context/interface
-%{_texmfdistdir}/tex/context/interface/third
-%{_texmfdistdir}/tex/context/interface/third/t-title.xml
-%{_texmfdistdir}/doc
-%doc %{_texmfdistdir}/doc/context
-%doc %{_texmfdistdir}/doc/context/third
+%{_texmfdistdir}/tex/context/interface/third/*
 %doc %{_texmfdistdir}/doc/context/third/title
-%doc %{_texmfdistdir}/doc/context/third/title/title-doc.pdf
-%doc %{_texmfdistdir}/doc/context/third/title/VERSION
 
 %post -p %{_sbindir}/texlive.post
 
