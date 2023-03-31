@@ -1,6 +1,6 @@
 Name:		texlive-context-title
 Version:	47085
-Release:	1
+Release:	2
 Summary:	Place document titles
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/context-title
