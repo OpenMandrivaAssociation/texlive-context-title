@@ -3,7 +3,7 @@ Version:	47085
 Release:	2
 Summary:	Place document titles
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/context-title
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/context-title
 License:	gpl
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-title.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-title.doc.r%{version}.tar.xz
